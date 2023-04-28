@@ -1,0 +1,471 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    font-family:'Source Sans Pro',sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+.navebar{
+    width:98%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: nowrap;
+    padding: 10px;
+    position: fixed;
+    font-weight:bold;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 220px;
+    cursor: pointer;
+    padding: 10px;
+}
+.logo img{
+    border-radius: 50px;
+}
+.name span{
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    font-size:18px;
+    color: rgb(89, 88, 88);
+    font-weight: bold;
+    letter-spacing: 0.5;
+}
+.header-main{
+    width: 60%; 
+    display: flex;
+    justify-content: right; 
+}
+.header-links{
+    width: 500px;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    list-style:none;
+    padding: 15px;
+}
+.header-link a{
+    transition: all 300ms ease;
+    color:rgb(89, 88, 88);
+    text-decoration-line: none; 
+    font-weight: bold;
+    padding: 15px;
+    margin: 0px;  
+}
+a:hover{
+    color: rgb(255, 225, 0);
+}
+
+.home-container{
+    margin-top: 100px;
+    color: rgb(89, 88, 88);
+    background:linear-gradient(to right,rgba(245,245,245,.8),rgba(245,245,245,.8)),url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a…dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading{
+    margin-top: 150px;
+    width: 70%;
+    font-size:30px;
+    color: black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pragraf{
+    font-size: 20px;
+    width: 700px;
+    letter-spacing: 1px;
+    margin: 10px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.proj-btn button, button{
+    padding: 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(255, 218, 69);
+    font-size: 20px;
+    font-weight:bold;
+    width: 250px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro',sans-serif;
+    letter-spacing: 1px;
+}
+#pc-btn{
+    text-decoration: none;
+    color: #000;
+}
+ button:hover{
+    background-color: rgba(255, 206, 10, 0.429);
+}
+.mouse{
+    margin-top: 100px;
+}
+
+.about-container{
+    margin-top: 0px;
+    padding: 80px 30px;
+    text-align: center;
+    color:rgb(89, 88, 88);
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
+    background-color:rgba(236, 236, 236, 0.182);
+}
+.about-hed{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+h3{
+    padding:2px 30px;
+    margin: 0;
+    color: black;
+
+}
+hr{
+    width: 32px;
+    height: 6px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 225, 0);
+}
+.about-pra, .proj-pra,.pragraph{
+    width: 700px;
+    line-height: 2rem;
+}
+.pra-skills{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 10px;
+    padding: 3%;
+}
+.pra{
+    width: 45%;
+    padding-left: 3%;
+    line-height: 2rem;
+}
+.pra-skills h2{
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+}
+.skills{
+    width: 45%;
+    padding-left: 5%;
+}
+#skills{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#skills p{
+    background-color: rgb(227, 227, 227);
+    padding:15px 25px;
+    margin:8px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.project-container,#contact-container{
+    padding: 40px 30px;
+    text-align: center;
+    color:rgb(89, 88, 88);
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-container{
+    background-color: rgb(244, 244, 244);
+}
+.proj-hed,.contact-hed{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+h3{
+    padding:2px 30px;
+    margin-top: 50px;
+    color: black;
+
+}
+hr{
+    width: 32px;
+    height: 6px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(255, 225, 0);
+}
+p{
+    line-height: 30px;
+}
+.img-text{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.img{
+    width: 60%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    margin: 0;
+    padding:100px;
+}
+.img img{
+    width: 100%;
+    height:auto;
+}
+.text{
+    width: 40%;
+    height: auto;
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items:center;
+}
+.text h2{
+    color: black;
+    width: 100%;
+    text-align: left;
+}
+.text p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.case-study-btn{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+}
+#contact-form{
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 5%;
+    width: 50%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+#name,.email,.massage{
+    margin-bottom: 15px;
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    width: 100%;
+    text-transform:capitalize;
+    margin-bottom: 5px;
+}
+input{
+    padding: 18px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width:90%;
+    padding: 5%;
+    margin: 0;
+}
+.footer h2{
+    color: white;
+}
+.footer-box{
+    display: flex;
+    justify-content:left;
+}
+.footer-box .text{
+     width:50%;
+    text-align: left;
+
+    margin: 0;
+}
+#text p{
+    width: 60%;
+}
+.social{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.all-cocial-container{
+    width: 50%;
+}
+.social-link{
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 227);
+
+}
+.social-icon img{
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+}
+#header-links{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    
+    .logo-name{
+        width: 75%;
+        font-size: medium;
+        padding: 0;
+    }
+    .navebar{
+        margin: 0;
+        padding: 10px;
+        width: 100%;
+    }
+    #dropdown-container{
+        background-color: rgb(221, 219, 222);
+        display: none;
+        height:auto;
+        position:relative;
+        display: flex;
+        justify-content: right;
+        flex-direction: column;
+    }
+    #dropdown-container a{
+        text-decoration: none;
+        color: #000;
+        line-height: 40px;
+        padding:10px;
+        background-color: rgb(221, 219, 222);
+    }
+    #dropdown-container a:hover{
+        transition: all 600ms ease;
+        color: blue;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.405);
+    }
+    #header-links{
+        margin: 0;
+        padding: 5px;
+        display:flex;
+        flex-wrap: wrap;
+        cursor: pointer;
+        font-size:medium;
+    }
+    .header-links{
+        display: flex;
+        justify-content:center;
+        position: fixed;
+        cursor: pointer;
+        width: 25%;
+        padding: 0px;
+        margin-top: -20px;
+    }
+    .header-link{
+        display: none;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 16px;
+        padding: 0% 20%;
+    }
+    .pra{
+        width: 100%;
+    }
+    .pra p{
+        width: 100%;
+        padding-left: 3% ;
+    }
+    .skills{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .img-text{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .img{
+        width: 100%;
+        padding: 10px;
+    }
+    .form-container{
+        width: 100%;
+    }
+    #text{
+        width: 60%;
+        margin-right: 20px;
+    }
+    .footer-box h2{
+        width: 100%;
+        font-size: 20px;
+    }
+    #text p{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    .all-cocial-container{
+        width: 40%;
+        padding: 0;
+    }
+    .social{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    } 
+    .social-link img{
+        width: 22px;
+        height: 22px;
+    }
+    
+  }
