@@ -350,7 +350,6 @@ input{
 #header-links{
     display: none;
 }
-
 @media only screen and (max-width: 600px) {
     
     .logo-name{
@@ -423,7 +422,7 @@ input{
         width: 70%;
     }
     #pragraf{
-        width: 85%;
+        width: 90%;
         font-size: 14px;
         padding: 10px;
     }
@@ -485,3 +484,4 @@ input{
     }
     
   }
+
