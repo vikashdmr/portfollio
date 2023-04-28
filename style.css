@@ -350,17 +350,20 @@ input{
 #header-links{
     display: none;
 }
+
 @media only screen and (max-width: 600px) {
     
     .logo-name{
         width: 75%;
         font-size: medium;
         padding: 0;
+
     }
     .navebar{
         margin: 0;
         padding: 10px;
-        width: 100%;
+        width: 95%;
+
     }
     #dropdown-container{
         background-color: rgb(221, 219, 222);
@@ -402,20 +405,31 @@ input{
     }
     .header-link{
         display: none;
+
     }
     h1{
-        font-size: 40px;
+        font-size: 21px;
     }
-    p{
-        font-size: 16px;
-        padding: 0% 20%;
+    h3{
+        font-size: 20px;
     }
+    button{
+        font-size: 15px;
+        padding: 10px;
+        width: 200px;
+    }
+  
     .pra{
-        width: 100%;
+        width: 70%;
+    }
+    #pragraf{
+        width: 95%;
+        font-size: 14px;
+        padding: 10px;
     }
     .pra p{
-        width: 100%;
-        padding-left: 3% ;
+        width: 70%;
+        font-size: 14px;
     }
     .skills{
         width: 100%;
@@ -427,11 +441,13 @@ input{
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        font-size: 14px;
     }
     .text{
-        width: 100%;
+        width:70%;
         margin: 0;
         padding: 10px;
+        font-size: 14px;
     }
     .img{
         width: 100%;
@@ -445,11 +461,11 @@ input{
         margin-right: 20px;
     }
     .footer-box h2{
-        width: 100%;
+        width: 70%;
         font-size: 20px;
     }
     #text p{
-        width: 100%;
+        width: 70%;
         margin: 0;
         padding: 0;
         font-size: 16px;
