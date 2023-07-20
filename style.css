@@ -9,7 +9,7 @@ html{
     scroll-behavior:smooth;
 }
 .navebar{
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -133,7 +133,11 @@ a:hover{
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
     background-color:rgba(236, 236, 236, 0.182);
 }
-
+.about-hed{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
 h3{
     padding:2px 30px;
     margin: 0;
@@ -203,11 +207,6 @@ h3{
     font-size: 30px;
     text-transform: uppercase;
     margin-top: 30px;
-}
-h3{
-    padding:2px 30px;
-    margin-top: 50px;
-    color: black;
 
 }
 hr{
@@ -218,6 +217,13 @@ hr{
     border-radius: 10px;
     background-color: rgb(255, 225, 0);
 }
+h3{
+    padding:2px 30px;
+    margin-top: 50px;
+    color: black;
+
+}
+
 p{
     line-height: 30px;
 }
@@ -355,7 +361,7 @@ input{
     .navebar{
         margin: 0;
         padding: 10px;
-        width: 95%;
+        width: 99.99%;
 
     }
     #dropdown-container{
@@ -436,14 +442,15 @@ input{
         flex-wrap: wrap;
         font-size: 14px;
     }
+    #text-about{
+        width: 100%;
+        border: 3px solid red;
+    }
     .text{
         width:70%;
         margin: 0;
         padding: 10px;
         font-size: 14px;
-    }
-    #text-about{
-        width: 100%;
     }
     .img{
         width: 100%;
@@ -481,4 +488,3 @@ input{
     }
     
   }
-
