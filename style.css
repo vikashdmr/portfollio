@@ -420,7 +420,7 @@ input{
         width: 70%;
     }
     #pragraf{
-        width: 90%;
+        width:auto;
         font-size: 14px;
         padding: 10px;
     }
