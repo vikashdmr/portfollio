@@ -199,7 +199,7 @@ h3{
 #contact-container{
     background-color: rgb(244, 244, 244);
 }
-.proj-hed,.contact-hed{
+.proj-hed,.contact-hed,.about-hed{
     display: flex;
     flex-direction: column;
     justify-content: center;
