@@ -133,11 +133,7 @@ a:hover{
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.3);
     background-color:rgba(236, 236, 236, 0.182);
 }
-.about-hed{
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-top: 30px;
-}
+
 h3{
     padding:2px 30px;
     margin: 0;
