@@ -420,7 +420,7 @@ input{
     }
   
     .pra{
-        width: 70%;
+        width:auto;
     }
     #pragraf{
         width:400px;
@@ -428,7 +428,7 @@ input{
         padding: 10px;
     }
     .pra p{
-        width: 70%;
+        width: auto;
         font-size: 14px;
     }
     .skills{
@@ -445,7 +445,6 @@ input{
     }
     #text-about{
         width: 100%;
-        border: 3px solid red;
     }
     .text{
         width:70%;
