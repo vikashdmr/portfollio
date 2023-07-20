@@ -446,6 +446,9 @@ input{
         padding: 10px;
         font-size: 14px;
     }
+    #text-about{
+        width: 100%;
+    }
     .img{
         width: 100%;
         padding: 10px;
