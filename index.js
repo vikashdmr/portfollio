@@ -1,26 +1,25 @@
-/*const headerMainE1 = document.getElementsByClassName("header-link");
-const header4 = document.getElementById("contact-container");
-const bodyE1= document.getElementById("main-body");
-
-console.log(bodyE1);
-function contact(){
-  
-   console.log(header4);
-}
-function showNave(){
-   headerMainE1.style.display="none";
-}
-*/
 let dropdown = document.getElementById("dropdown-container");
 let dropdownMain = document.getElementById("header-links");
 dropdown.style.display="none";
-let x=2
-function dropdownimg(){
-  if(x%2==0){
+ 
+
+
+document.getElementById("crosbox").className="d-none";
+let x=0;
+function dropdownimg(num){
+   console.log(num)
+   
+   x = x+num;
+   console.log(x)
+  if(x%2){
+   document.getElementById("dropbox").className="d-none";
+   document.getElementById("crosbox").className="block";
+
    dropdown.style.display="block";
-  x--;
   }else{
    dropdown.style.display="none";
-   x++;
-  }
+   document.getElementById("dropbox").className="block";
+   document.getElementById("crosbox").className="d-none";
+   
+}
 }
