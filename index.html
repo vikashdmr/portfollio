@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio2</title>
     <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-<body class="container">
+<body>
     <div class="container">
-    <div class="navebar">
+    <div class="navebar container">
         <div class="logo-name">
-            <div class="logo img-fluid">
-                <img src="img/logo5.jpg">
+            <div  class="logo">
+                <img class="img-fluid" id="logoimg" src="/img/logo5.jpg" alt="">
             </div>
             <div class="name">
                 <span>VIKASH KUMAR</span>
@@ -33,8 +33,12 @@
                 <li class="header-link">
                     <a href="#contact-container">CONTACT</a>
                 </li>
-                <div id="header-links">
-                    <img onclick="dropdownimg()" src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="">
+                <div id="header-links" >
+                    <div id="dropcrop" onclick="dropdownimg(1)">
+                    <img id="dropbox"  src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="img">
+
+                    <img id="crosbox" src="./img/crosh-img.png" alt="img" width="25px">
+                </div>
                     <div id="dropdown-container">
                         <a href="#home">HOME</a>
                         <a href="#about">ABOUT</a>
@@ -45,12 +49,11 @@
             </ul>
         </div>
     </div>
-        </div>
-    <div class="home-container" id="home">
+    <div class="home-container container" id="home">
         <div class="heading">
             <h1>HEY, I'M VIKASH KUMAR SINGH</h1>
         </div>
-        <div id="pragraf">
+        <div class="text-wrap" id="pragraf"  style="max-width:50rem;">
             <p>A Frontend focused Web Developer 
                 building the Frontend of Websites
                  and Web Applications that leads to 
@@ -68,14 +71,18 @@
             <h3>about me</h3>
             <hr>
         </div>
-        <div class="about-pra" id="pragraf">
-            <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+        <div class="about-pra container" id="pragraf">
+            <p>Here you will find more 
+                information about me, what
+                 I do, and my current skills
+                  mostly in terms of 
+                  programming and technology</p>
         </div>
         <div class="pra-skills">
             <div class="pra">
                 <h2>get to know me!</h2>
                 <br>
-                <p id="text-about">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. 
+                <p id="text-about" class="container">I'm a Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the Projects section. 
                     <br>
                     I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin where I post useful content related to Web Development and Programming. 
                     <br>
@@ -96,7 +103,6 @@
                     <p>ReactJs</p>
                     <p>Github</p>
                     <p>Responsive Design</p>
-                    <p>Express Basics</p>
                     <p>SQL Basics</p>
                 </div>
             </div>
@@ -109,11 +115,13 @@
             <hr>
         </div>
         <div class="proj-pra" id="pragraf">
-            <p>Here you will find some of the personal and clients projects that I created with each project containing its own case study</p>
+            <p>Here you will find some of the personal and 
+                clients projects that I created with each 
+                project containing its own case study</p>
         </div>
         <div class="img-text">
             <div class="img">
-                <img src="https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg" alt="Software Screenshot">
+                <img class="img-fluid"  src="https://d33wubrfki0l68.cloudfront.net/19c708670a1f21231c1e2efa6ba38dbf52b15343/3237e/assets/jpeg/dopefolio.jpeg" alt="Software Screenshot">
             </div>
             <div class="text">
                 <h2>Dopefolio</h2>
@@ -173,8 +181,10 @@
             <h3>CONTACT</h3>
             <hr>
         </div>
-        <div id="pragraph">
-            <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible
+        <div  id="pragraf">
+            <p>Feel free to Contact me by submitting the form
+                 below and I will get back to you as soon as
+                  possible
             </p>
         </div>
         <form action="submit" id="contact-form">
@@ -189,7 +199,7 @@
                 </div>
                 <div class="massage">
                     <label for="massage">massage</label>
-                    <textarea name="massage" id="massage" cols="30" rows="10" placeholder="Enter Your massage"></textarea>
+                    <textarea name="massage" id="massage" cols="30" rows="7" placeholder="Enter Your massage"></textarea>
                 </div>
                 <div class="submit-btn">
                     <button>SUBMIT</button>
@@ -197,9 +207,10 @@
             </div>
         </form>
     </div>
+</div>
     
     <footer class="footer">
-        <div class="footer-box">
+        <div class="footer-box container">
             <div id="text">
                 <h2>VIKASH KUMAR SINGH</h2>
                 <P>A Frontend focused Web Developer 
@@ -242,6 +253,6 @@
         </div>
     </footer>
     <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
 </body>
 </html>
